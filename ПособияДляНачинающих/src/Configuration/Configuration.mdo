@@ -48,8 +48,11 @@
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.УчетМатериалов</commonPictures>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ОказанияУслуги</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
 </mdclass:Configuration>
