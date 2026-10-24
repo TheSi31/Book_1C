@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49de040f-8e0b-42e4-90ae-1c1bd996ac98">
+  <producedTypes>
+    <objectType typeId="b60bb61f-61d8-485b-86d0-196d9c6f7728" valueTypeId="0384a218-4cd9-4e14-9249-139ff981c8c3"/>
+    <refType typeId="9d26589f-cc33-45e3-905a-b04a60014ce2" valueTypeId="5c1fe231-7f66-4142-aca2-a70ae06c0852"/>
+    <selectionType typeId="8228d55d-911a-4577-a6a1-5dcbb4cefffe" valueTypeId="6e5f7f82-be35-4d14-9998-68959527d5d7"/>
+    <listType typeId="a97b81df-31ac-4a96-8851-66eab64845a5" valueTypeId="e7d8d8e5-13e2-4068-83b8-06050c744f3f"/>
+    <managerType typeId="700b7e24-75d0-462f-b3da-e7dff6eab041" valueTypeId="20be641d-701a-497e-af84-37ffbb579be0"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="31bcea51-9438-4d28-9de8-915825f531fc">
+      <name>Основной</name>
+      <description>Основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
