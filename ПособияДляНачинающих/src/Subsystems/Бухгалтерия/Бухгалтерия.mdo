@@ -22,4 +22,5 @@
   <content>Report.РейтингУслуг</content>
   <content>Report.ПереченьУслуг</content>
   <content>Report.РейтингКлиентов</content>
+  <content>Report.ОстаткиМатериаловПоСвойствам</content>
 </mdclass:Subsystem>
